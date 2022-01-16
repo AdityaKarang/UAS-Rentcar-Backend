@@ -26,8 +26,8 @@ db.sequelize = sequelize;
 
 db.user = require("../models/user.model.js")(sequelize, Sequelize);
 db.role = require("../models/role.model.js")(sequelize, Sequelize);
-db.mobil = require("../models/mobil.model.js")(sequelize, Sequelize);
-db.pelanggan = require("../models/pelanggan.model.js")(sequelize, Sequelize);
+// db.mobil = require("../models/mobil.model.js")(sequelize, Sequelize);
+// db.pelanggan = require("../models/pelanggan.model.js")(sequelize, Sequelize);
 
 
 
